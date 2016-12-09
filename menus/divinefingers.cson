@@ -1,0 +1,59 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.tree-view.full-menu': [
+      { label: 'Upload', command: 'divinefingers:upload-selected' },
+      { label: 'Download', command: 'divinefingers:download-selected-local' },
+      { label: 'Sync local -> remote', command: 'divinefingers:sync-with-local' }
+    ]
+  '.tree-view.multi-select': [
+      { label: 'Upload', command: 'divinefingers:upload-selected' },
+      { label: 'Download', command: 'divinefingers:download-selected-local' },
+      { label: 'Sync local -> remote', command: 'divinefingers:sync-with-local' }
+    ]
+  '.divinefingers-view .list-tree.full-menu': [
+      { label: 'Add File', command: 'divinefingers:add-file' },
+      { label: 'Add Folder', command: 'divinefingers:add-folder' },
+      { label: 'Refresh', command: 'divinefingers:refresh-selected' },
+      { label: 'Disconnect', command: 'divinefingers:disconnect' },
+      { label: 'Rename', command: 'divinefingers:move-selected' },
+      { label: 'Delete', command: 'divinefingers:delete-selected' },
+      { label: 'Download', command: 'divinefingers:download-selected' },
+      { label: 'Sync local <- remote', command: 'divinefingers:sync-with-remote' },
+      { label: 'Hide', command: 'divinefingers:toggle' }
+    ]
+  '.divinefingers-view .list-tree.multi-select': [
+      { label: 'Download', command: 'divinefingers:download-selected' },
+      { label: 'Sync local <- remote', command: 'divinefingers:sync-with-remote' }
+    ]
+  'atom-text-editor': [
+      { label: 'Upload', command: 'divinefingers:upload-active' },
+    ]
+
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'divinefingers'
+      'submenu': [
+        { label: 'Find a file', command: 'divinefingers:toggleFind' },
+        { label: 'Toggle', command: 'divinefingers:toggle' },
+        { label: 'Connect', command: 'divinefingers:connect' },
+        { label: 'Disconnect', command: 'divinefingers:disconnect' },
+        { label: 'Navigate to', command: 'divinefingers:navigate-to' },
+        { label: 'Create ignore file', command: 'divinefingers:create-ignore-file' },
+        { label: 'Create FTP config file', command: 'divinefingers:create-ftp-config' },
+        { label: 'Create SFTP config file', command: 'divinefingers:create-sftp-config' },
+      ]
+    ]
+  }
+]
+
+'atom-workspace': [{ label: 'Help', command: 'application:open-documentation' }]
+'atom-text-editor': [{
+  label: 'History',
+  submenu: [
+    { label: 'Undo', command:'core:undo' }
+    { label: 'Redo', command:'core:redo' }
+  ]
+}]

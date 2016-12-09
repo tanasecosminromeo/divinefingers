@@ -1,0 +1,40 @@
+{
+  "activationCommands": [],
+  "bugs": {
+    "url": "https://github.com/tanasecosminromeo/divinefingers/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "chokidar": "^1.6.0",
+    "fs-plus": "*",
+    "ftp": "*",
+    "ignore": "^2.2.15",
+    "jslint": "*",
+    "ssh2": "^0.5",
+    "strip-json-comments": "*",
+    "theorist": "*"
+  },
+  "description": "Remote Server IDE package for Atom.io",
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
+  },
+  "engines": {
+    "atom": ">=0.204.0 <2.0.0"
+  },
+  "homepage": "https://github.com/tanasecosminromeo/divinefingers#readme",
+  "license": "MIT",
+  "main": "./lib/divinefingers",
+  "name": "divinefingers",
+  "optionalDependencies": {},
+  "readme": "# divinefingers\n\nRemote Server IDE package for Atom.io",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanasecosminromeo/divinefingers.git"
+  },
+  "version": "0.1.1"
+}

@@ -1,0 +1,3 @@
+'atom-workspace':
+  'ctrl-alt-o': 'divinefingers:toggle'
+  'ctrl-alt-l': 'divinefingers:toggleFind'
