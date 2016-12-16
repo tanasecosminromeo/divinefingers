@@ -14,6 +14,7 @@
       { label: 'Add File', command: 'divinefingers:add-file' },
       { label: 'Add Folder', command: 'divinefingers:add-folder' },
       { label: 'Refresh', command: 'divinefingers:refresh-selected' },
+      { label: 'Reconnect', command: 'divinefingers:reconnect-selected' },
       { label: 'Disconnect', command: 'divinefingers:disconnect' },
       { label: 'Rename', command: 'divinefingers:move-selected' },
       { label: 'Delete', command: 'divinefingers:delete-selected' },
