@@ -25,6 +25,13 @@
   "engines": {
     "atom": ">=0.204.0 <2.0.0"
   },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
   "homepage": "https://github.com/tanasecosminromeo/divinefingers#readme",
   "license": "MIT",
   "main": "./lib/divinefingers",

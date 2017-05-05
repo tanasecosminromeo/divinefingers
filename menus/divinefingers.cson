@@ -38,6 +38,7 @@
       'label': 'divinefingers'
       'submenu': [
         { label: 'Find a file', command: 'divinefingers:toggleFind' },
+	      { label: 'Status bar', command: 'divinefingers:toggleStatus' },
         { label: 'Toggle', command: 'divinefingers:toggle' },
         { label: 'Connect', command: 'divinefingers:connect' },
         { label: 'Disconnect', command: 'divinefingers:disconnect' },
